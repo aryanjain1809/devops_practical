@@ -1,15 +1,10 @@
 pipeline {
     agent any
     stages{
-        stage('checking python version') {
-            steps {
-                bat 'python -V'
-            }
-        }
 
         stage('REPO Cloning'){
             steps {
-                bat 'xcopy /S "*" "D:/Coding Software/xampp/htdocs/devops_xampp_jenkins" /Y'
+                bat 'xcopy /S "*" "C:/xampp/htdocs/pipeline_job" /Y'
             }
         }
 
