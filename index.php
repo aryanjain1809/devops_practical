@@ -6,7 +6,7 @@
 </head>
 <body>
     <header>
-        <h1>My Wiki</h1>
+        <h1>Hey Wiki</h1>
         <nav>
             <a href="#">Home</a>
             <a href="#">Articles</a>
@@ -14,7 +14,7 @@
         </nav>
     </header>
     <main>
-        <h2>Welcome to My Wiki</h2>
+        <h2>Welcome! Namaste!</h2>
         <p>This is devops practical 4</p>
     </main>
     <footer>
